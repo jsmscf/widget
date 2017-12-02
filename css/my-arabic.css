@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo:300,400,500,700');
+/*h1, h2, h3, h4, h5, h6,
+a,
+.command_vs,
+.btn,
+.navbar-nav a ,
+.hvr-rectangle-out,
+.normal_font,
+.footer .title h4,
+.footer .text,
+.countdown small
+*/
+*:not(.fa) {
+  font-family: 'Cairo'!important;
+}
+
+./*col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12
+ {float: right!important;}*/
+#tabs {float: left!important;}
+
+
+#bootstrap-carousel h1 {
+    text-align: right;
+}
+.carousel-caption {text-align: right!important;}
+.resume {
+  text-align: right;
+}
+#news ul li {
+  text-align: right;
+}
+
+.contact-title {
+    margin-right: 26%;
+}
+.followus-title {
+	margin-right: 41px;
+}
+#footer-top li > div.icon { right: 0; }
+.title-widget {
+  padding-right: 28px;
+  text-align: right!important;
+}
+.title-widget::before {
+  right: 0px;
+}
+html[dir="rtl"] #last-infos > ul > li > a:before {
+    content: "-";
+    /*content: "\f053";*/
+    left: 8px;
+}
+html[dir="rtl"] li.dropdown.mega-dropdown.open > ul > li > div > p {
+  text-align: right;
+}
+html[dir="rtl"] h4.menu-title {
+  text-align: right;
+}
+
+/*** Results ***/
+.bs-wizard > .bs-wizard-step:last-child > .progress {
+    width: 58%;
+    right: 50%;
+}
+.bs-wizard > .bs-wizard-step:first-child > .progress {
+    left: 50%;
+    width: 100%;
+}
+
+
+/* Classemnt */
+.resultat table > tbody > tr > td:nth-child(3) {
+  float: right;
+  text-align: right;
+  width: 100%;
+}
+.resultat table > tbody > tr > td:nth-child(1) {
+  float: left;
+  text-align: left;
+  width: 100%;
+}
+#classement-l2 > tbody > tr > td:nth-child(2), #classement-l1 > tbody > tr > td:nth-child(2) {
+  text-align: right!important;
+  left: right;
+}
+.classement > ul > li > a {
+  font-size: 15.5px;
+}
+.classement > ul {
+  padding-right: 0px;
+}
+
+.photo-member {
+    float: right;
+    padding-left: 10px;
+}
+.copyright {
+    float: right;
+}
+#signa {
+  float: left;
+}
+.copyright {
+  top: -10px!important;
+}
+#signa div {
+  top: 0px!important;
+}
+
+.col-8-1 dd {
+  width: 37%;
+}
+.navbar-nav {
+  padding-right: 5px;
+}
+.nav > li > a {
+    padding-left: 0px!important;
+}
+
+#contactform-verifycode-image {
+  margin-right: -20px;
+}
+#return-to-top i {
+    left: -16px!important;
+}
+
+
+
+
+@media screen and (max-width: 649px) {
+  .col-8-1 dd {
+    width: 100%;
+    position: relative;
+    left: 42px;
+  }
+  .nav > li > a {
+    margin-left: 0px;
+  }
+  .navbar-nav > li {
+      float: right;
+      width: 100%;
+      padding: 5px 0px;
+  }
+  .dropdown.mega-dropdown .fa.fa-chevron-down.pull-right {
+    position: absolute;
+    left: 15%;
+  }
+}
+@media screen and (max-width: 767px) {
+   .mega-dropdown.open > ul > li > dl > dt > a {
+      width: 150px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .search-wrapper {
+    position: relative;
+    right: -360px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .col-8-1 dd {
+    position: absolute;
+    right: 0;
+  }
+}
