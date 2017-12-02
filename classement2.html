@@ -30,22 +30,7 @@
       </thead>
       <tbody>
 				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-		      <tr role="row" class="odd">
+	      <tr role="row" class="odd">
 			<td class="sorting_1">1</td>
 			<td>
 				<a href="http://www.lfp.dz/club/view?id=28"><img src="http://www.lfp.dz/../matchpro/images/uploads/clubs/Logo_ASM_Oran.png" alt="" width="20"></a> <a href="/club/view?id=28">ج.وهران</a>    		</td>
@@ -257,5 +242,44 @@
     </table></div>
   </div>
   </div>
-	      </body>
+	     <script src="/assets/ec26f708/jquery.js"></script>
+<script src="/assets/eae99b4d/yii.js"></script>
+<script src="/assets/eae99b4d/yii.validation.js"></script>
+<script src="/assets/eae99b4d/yii.activeForm.js"></script>
+<script src="/assets/7a1628aa/assets/js/social-share.js"></script>
+<script src="/frontend/assets/js/classement.js"></script>
+<script src="/assets/a10165c2/js/bootstrap.js"></script>
+<script src="/assets/5d79893e/bootbox.js"></script>
+<script src="/frontend/assets/js/my.js"></script>
+<script src="/frontend/assets/js/ticker.js"></script>
+<script src="/frontend/assets/js/dataTables.min.js"></script>
+<script src="/frontend/assets/js/carousel.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.partner-logos').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    rtl: true,
+    autoplaySpeed: 1000,
+    arrows: false,
+    dots: false,
+      pauseOnHover: false,
+      responsive: [{
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 3
+      }
+    }, {
+      breakpoint: 520,
+      settings: {
+        slidesToShow: 2
+      }
+    }]
+  });
+});
+    </script>
+<script type="text/javascript">jQuery(document).ready(function () {
+jQuery('#w0').yiiActiveForm([{"id":"classement-id_journee","name":"id_journee","container":".field-journee","input":"#journee","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"يوم لا يمكن تركه فارغًا."});yii.validation.number(value, messages, {"pattern":/^\s*[+-]?\d+\s*$/,"message":"يوم يجب أن يكون رقمًا صحيحًا","skipOnEmpty":1});}}], []);
+});</script></body>
 </html>
