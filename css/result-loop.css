@@ -1,0 +1,301 @@
+.loop-resultat {
+	align-items: center;
+	padding: 30px 0 0 0;
+	background: #ededed;
+	margin-bottom: 55px;
+}
+.resultat-index h3, .resultat-index h4, .resultat .goals h2 a, .resultat .command_right .goals h2 a {
+    color: #444444!important;
+    text-shadow: 0px 0px 0px #0b0b0b!important;
+}
+.resultat h4 {
+    color: #ec1919!important;
+}
+
+.fixture_info {
+    position: relative;
+    font-size: 13px;
+    line-height: 40px;
+    clear: both;
+    padding: 2px 0 0 0;
+    background: #3f4851;
+/*    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;*/
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    /*height: 54px;*/
+}
+.fixture_info .date {
+    font-size: 13px;
+    color: #fff;
+    /*margin-left: 20px;*/
+}
+.fixture_info .date i {
+    margin-right: 3px;
+    font-size: 15px;
+}
+.fixture_info .time {
+    font-size: 13px;
+    color: #fff;
+    margin: 0 30px;
+}
+.fixture_info .time i {
+    margin-right: 3px;
+    font-size: 15px;
+}
+.fixture_info .button-gray.btn-only-border {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 14px;
+    color: #fff;
+    border: 0;
+    padding: 0 20px;
+    margin-top: -2px;
+    position: absolute;
+    /*right: 0;*/
+    height: 42px;
+    line-height: 42px;
+    border: 0;
+    letter-spacing: 0;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.button.button-gray.btn-only-border {
+    text-transform: uppercase;
+    opacity: 1;
+    border-radius: 0;
+    height: 54px;
+    line-height: 40px;
+    padding: 0 35px;
+    font-size: 15px;
+    margin-top: -7px;
+    color: white;
+}
+.button-gray.btn-only-border {
+    text-transform: uppercase;
+    opacity: 1;
+    border-radius: 0;
+    height: 47px;
+    line-height: 43px;
+    padding: 0 10px;
+    font-size: 15px;
+    margin-top: 0;
+    border: 1px solid #b2b2b2;
+    color: #282f36;
+}
+.button.btn-only-border {
+    text-transform: uppercase;
+    opacity: 1;
+    border-radius: 0;
+    height: 47px;
+    line-height: 43px;
+    padding: 0 35px;
+    font-size: 15px;
+    margin-top: 0;
+    border: 2px solid #ec1919;
+    color: #ec1919;
+}
+.button.button-gray.btn-only-border:before {
+    background: transparent;
+    -webkit-transform: scale3d(0.7, 1, 1);
+    transform: scale3d(0.7, 1, 1);
+}
+.button-gray.btn-only-border:before {
+    background: transparent;
+    -webkit-transform: scale3d(0.7, 1, 1);
+    transform: scale3d(0.7, 1, 1);
+}
+.button.btn-only-border:before {
+    background: transparent;
+    -webkit-transform: scale3d(0.7, 1, 1);
+    transform: scale3d(0.7, 1, 1);
+}
+.btn-only-border:hover {
+	background-color: #ec1919;
+}
+input[type="submit"]:before, button:before, .button:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #e21e22;
+    z-index: -1;
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+    -webkit-transition: opacity 0.4s, -webkit-transform 0.4s;
+    transition: opacity 0.4s, -webkit-transform 0.4s;
+    transition: transform 0.4s, opacity 0.4s;
+    transition: transform 0.4s, opacity 0.4s, -webkit-transform 0.4s;
+    -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+.fixture_info .button-gray.btn-only-border i {
+    margin-right: 5px;
+    font-size: 15px;
+}
+.resultat .fixture_info {
+	line-height: 40px;
+    /*width: 104%;*/
+    /*left: -2%;*/
+    padding: 7px 0;
+    /*top: 30px;*/
+    position: absolute;
+    /*top: 130px;*/
+    left: 0px;
+    bottom: -20px;
+}
+
+.redhover {
+    color: #fff;
+    background: #3f4851;
+    padding: 12px 20px 11px !important;
+    font-family: 'Oswald Light';
+    font-size: 16px;
+    text-transform: uppercase;
+    -moz-transition: all .2s ease-in!important;
+    -o-transition: all .2s ease-in!important;
+    -webkit-transition: all .2s ease-in!important;
+    transition: all .2s ease-in!important;
+    width: 100%;
+    display: inline-block;
+}
+
+.redhover:hover {
+    background-color: #ec1919;
+}
+.btn-left {
+    left: 0%;
+    width: 120px;
+}
+.loop-resultat .tooltip.top {width: 200px;}
+
+/*html[dir="rtl"] .resultat .fixture_info {
+    left: 2%;
+}*/
+
+.info_buttons {
+    /*margin-bottom: -54px;*/
+    bottom: 20px!important;
+}
+.top-journee {
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+
+
+/*** Red ribbon | generator: http://www.cssportal.com/css-ribbon-generator/   ***/
+
+.resultat-top {
+  /*margin: 50px auto;*/
+  /*padding: 10px;*/
+  /*width: 280px;*/
+  /*min-height: 100px;*/
+  /*background: white;*/
+  /*border-radius: 10px;*/
+  -webkit-box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+  -moz-box-shadow:    0px 0px 8px rgba(0,0,0,0.3);
+  box-shadow:         0px 0px 8px rgba(0,0,0,0.3);
+  position: relative;
+  z-index: 90;
+}
+.ribbon {
+  position: absolute;
+  right: -5px; top: -5px;
+  z-index: 1;
+  overflow: hidden;
+  width: 75px; height: 75px;
+  text-align: right;
+}
+.ribbon span {
+  font-size: 10px;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 20px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  width: 100px;
+  display: block;
+  background: #79A70A;
+  background: linear-gradient(#3F9314 0%, #3f9314 100%);
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 19px; right: -21px;
+}
+.ribbon span::before {
+  content: "";
+  position: absolute; left: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid #3f9314;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #3f9314;
+}
+.ribbon span::after {
+  content: "";
+  position: absolute; right: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid transparent;
+  border-right: 3px solid #3f9314;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #3f9314;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 649px) {
+    .info_buttons {
+        height: 54px;
+    }
+    .goals h4 {
+        display: none;
+    }
+
+    .nostade-nonote {
+        height: 230px;
+    }
+    .with-stade, .with-note {
+        height: 270px;
+    }
+}
+/*@media screen and (min-width: 650px) {*/
+@media screen and (min-width: 992px) {
+    .daterencontre {
+        margin-left: 80px!important;
+    }
+    .loop-resultat {
+        height: 170px;
+    }
+}
+
