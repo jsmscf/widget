@@ -1,0 +1,118 @@
+.classement .nav-pills > li > a {
+  border-radius: 0;
+}
+.dataTables_filter {
+  display:none;
+}
+.classement > .nav-pills > li.active > a, .classement > .nav-pills > li.active > a:hover, .classement > ul.nav li:hover, .classement > .nav-pills > li.active > a:focus {
+    background: #ec1919 !important;
+}
+.classement > ul.nav li.active {
+    background: #ec1919;
+}
+.classement > ul.nav li {
+	background: #242b31;
+    padding: 4px 10px;
+    text-align: center;
+    margin: 0 0 10px;
+    width: 50%;
+    font-family: 'Oswald';
+    font-size: 18px;
+    text-transform: uppercase;
+
+    -moz-transition: all .2s ease-in!important;
+    -o-transition: all .2s ease-in!important;
+    -webkit-transition: all .2s ease-in!important;
+    transition: all .2s ease-in!important;
+}
+.classement > ul.nav li a {
+	color: white;
+    -moz-transition: all .2s ease-in!important;
+    -o-transition: all .2s ease-in!important;
+    -webkit-transition: all .2s ease-in!important;
+    transition: all .2s ease-in!important;
+}
+.classement-table > thead > tr {background: #4f575e;}
+.classement-table > thead > tr > th {
+	font-family: "Oswald light";
+    padding: 3px 10px 3px 5px!important
+    height: 24px;
+    color: #b2b2b2 !important;
+    text-transform: uppercase;
+}
+.classement-table td {
+	font-family: "Oswald";
+}
+.view-all-link {
+	font-family: "Oswald light";
+    display: block;
+    text-align: center;
+    padding: 15px 10px;
+    background: #3d464e;
+    font-size: 15px;
+    color: #b2b2b2;
+    text-transform: uppercase;
+    margin: 0;
+    height: 60px;
+}
+.view-all-link:hover {
+    text-decoration: none;
+    color: #ec1919;
+}
+table.dataTable tbody th, table.dataTable tbody td {
+    padding: 8px 6px!important;
+    text-align: center!important
+}
+#classement-l1_wrapper tbody > tr > td:nth-child(2) {
+    text-align: left!important;
+}
+#classement-l1 > thead > tr > th:nth-child(1),
+#classement-l2 > thead > tr > th:nth-child(1),
+#classement-l1 > tbody > tr > td:nth-child(1),
+#classement-l2 > table > tbody > tr > td:nth-child(1) {
+    width: 10px!important;
+}
+.classement th a {
+    color: #242b31;
+    text-decoration: none!important;
+}
+.classement-light li a {
+    margin-left: -10px!important;
+    margin-right: -10px;
+    padding-left: 0px!important;
+    padding-right: 10px!important;
+    font-size: 14px!important;
+}
+#classement-l1 > tbody > tr > td:nth-child(2),
+#classement-l2 > tbody > tr > td:nth-child(2),
+#classement-l1r > tbody > tr > td:nth-child(2),
+#classement-l2r > tbody > tr > td:nth-child(2) {
+    text-align: left!important;
+}
+
+
+
+
+
+
+.table {
+    border-radius: 5px;
+    width: 50%;
+    margin: 0px auto;
+    float: none;
+}
+.classement > ul.nav li {
+    width: 25%;
+}
+table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTable thead .sorting_desc {
+    text-align: center;
+}
+.classement-table tr td a {
+    text-decoration: none!important;
+    color: #242b31;
+    font-size: 14px;
+}
+.classement-light table tbody th, .classement-light table tbody td {
+    padding: 2px 10px!important;
+}
+
