@@ -1,0 +1,206 @@
+.resultat {
+	position: relative;
+	text-align: center;
+}
+.resultat > h2 {
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 54px;
+    font-size: 36px;
+    padding: 0 0 12px;
+    margin-bottom: 10px;
+    z-index: -1;
+}
+.resultat > h2:after {
+	content: '';
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	width: 30px;
+	height: 3px;
+	background: #ec1919;
+	margin: 0 0 0 -15px;
+}
+.resultat h3 {
+    color: #ec1919;
+    padding: 0;
+    /*margin: 0 0 35px;*/
+}
+.resultat:before {
+	display: table;
+	content: " ";
+}
+.resultat .command_left {
+    float: left;
+    width: 50%;
+}
+.resultat .command_info {
+    position: relative;
+    float: right;
+    margin: 0 19px 0 0;
+}
+.resultat .command_info .logo {
+    position: absolute;
+    left: -52px;
+    top: -10px;
+    width: 98px;
+    height: 98px;
+    /*overflow: hidden;*/
+}
+.resultat .command_info .logo img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
+.resultat .command_info .score {
+    width: 120px;
+    height: 76px;
+    background: #ec1919;
+    text-align: right;
+    padding: 0 10px 0 0;
+    font-size: 60px;
+    color: #fff;
+    line-height: 70px;
+    font-weight: bold;
+}
+.resultat .command_info .score:after {
+    content: '';
+    position: absolute;
+    right: -11px;
+    top: 0;
+    border-top: 38px solid transparent;
+    border-left: 11px solid #ec1919;
+    border-bottom: 38px solid transparent;
+}
+.resultat .goals {
+    float: right;
+    text-align: right;
+    margin: 0 55px 0 0;
+}
+.resultat .goals h2 {
+    font-size: 19px;
+    text-transform: uppercase;
+    padding: 0 0 13px 20px;
+    border-bottom: 3px solid #ec1919;
+    display: inline-block;
+    margin: 0 0 9px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.resultat .goals h2 a {
+    color: #252c33;
+}
+.resultat h4 {
+    color: #ec1919;
+    text-transform: uppercase;
+    margin: 0 0 13px;
+}
+.resultat .players {
+    position: relative;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.resultat .command_right {
+    width: 50%;
+    float: right;
+    text-align: left;
+}
+.resultat .command_right .command_info {
+    float: left;
+    margin: 0 0 0 19px;
+}
+.resultat .command_right .command_info .logo {
+    left: auto;
+    right: -52px;
+}
+.resultat .command_right .command_info .score {
+    text-align: left;
+    padding: 0 0 0 10px;
+}
+.resultat .command_right .command_info .score:after {
+    left: -11px;
+    right: auto;
+    border-top: 38px solid transparent;
+    border-right: 11px solid #ec1919;
+    border-left: transparent;
+    border-bottom: 38px solid transparent;
+}
+.resultat .command_right .goals {
+    float: left;
+    text-align: left;
+    margin: 0 0 0 55px;
+}
+.resultat .command_right .goals h2 {
+    padding: 0 20px 14px 0;
+}
+.resultat .command_right .goals h2 a {
+    color: #252c33;
+    font-size: 90%;
+}
+.resultat .command_left .goals h2 a {
+    color: #252c33;
+    font-size: 90%;
+}
+.resultat .fixture_info {
+    /*position: absolute;*/
+    text-align: center;
+    font-size: 13px;
+    line-height: 21px;
+    clear: both;
+    padding: 10px 0 0;
+    /*top: 20px;*/
+
+    left: 0px;
+    width: 100%;
+}
+.date_time {
+    color: #151618;
+}
+.stade {
+    color: white!important;
+    font-size: 150%!important;
+    background-color: rgb(63, 147, 20);
+    padding: 10px 20px;
+    margin-top: 15px;
+}
+
+.resultat-table {
+    background-color: #ffffff;
+    border-radius: 0!important;
+    margin-bottom: 0px!important;
+}
+
+.resultat-table > tbody > tr > td a {
+    text-decoration: none!important;
+    color: #242b31;
+}
+.resultat-light li a {
+    margin-left: -10px!important;
+    margin-right: -10px;
+    padding-left: 0px!important;
+    padding-right: 10px!important;
+    font-size: 14px!important;
+}
+.resultat-light table tbody th:not(.score-horaire), .resultat-light table tbody td:not(.score-horaire) {
+    padding: 13.5px 0px!important;
+    vertical-align: middle!important;
+}
+
+.resultat-table > tbody > tr > td > span.date {
+    font-size: 12px;
+}
+.score-horaire {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+    vertical-align: middle!important;
+}
+/*.resultat-table > tbody > tr {
+    height: 67.5px;
+}*/
+.score-horaire {
+  text-align: center!important;
+}
